@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.avatar {
+  max-width: 200px;
+  width: 40%;
+  margin-top: 15vh;
+}
+
+.name {
+  margin-top: 3vh;
+}
+
+.links {
+  margin-top: 3vh;
+  list-style: none;
+  text-align: center;
+}
+
+.links > li {
+  margin-bottom: 20px;
+}

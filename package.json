@@ -1,0 +1,35 @@
+{
+  "name": "Joe-noh.github.io",
+  "private": true,
+  "description": "Introduce myself.",
+  "version": "0.1.0",
+  "author": "Joe Honzawa",
+  "dependencies": {
+    "gatsby": "^2.3.31",
+    "gatsby-image": "^2.0.40",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-robots-txt": "^1.4.0",
+    "gatsby-plugin-sharp": "^2.0.35",
+    "gatsby-source-filesystem": "^2.0.32",
+    "gatsby-transformer-sharp": "^2.1.18",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.17.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run dev",
+    "serve": "gatsby serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Joe-noh/Joe-noh.github.io"
+  }
+}

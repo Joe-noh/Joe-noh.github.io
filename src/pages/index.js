@@ -10,14 +10,17 @@ import styles from './index.module.css'
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div className="center">
+    <div className={styles.container}>
       <div className={styles.avatar}>
         <Avatar />
       </div>
-      <h1>Hi people</h1>
-      <p>Welcome to your new Gatsby site.</p>
-      <p>Now go build something great.</p>
-      <Link to="/page-2/">Go to page 2</Link>
+      <h2 className={styles.name}>Joe-noh</h2>
+      <ul className={styles.links}>
+        <li><a href="https://twitter.com/Joe_noh" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+        <li><a href="https://github.com/Joe-noh" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://joe-noh.hatenablog.com" target="_blank" rel="noopener noreferrer">Blog</a></li>
+        <li><Link to="/page-2/">History</Link></li>
+      </ul>
     </div>
   </Layout>
 )

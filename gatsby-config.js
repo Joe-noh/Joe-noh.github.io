@@ -3,6 +3,7 @@ module.exports = {
     title: 'My Page',
     description: '',
     author: 'Joe Honzawa',
+    siteUrl: 'https://joe-noh.github.io'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -15,6 +16,11 @@ module.exports = {
     },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        policy: [{ userAgent: '*', disallow: '/' }]
+      },
     },
   ],
 }

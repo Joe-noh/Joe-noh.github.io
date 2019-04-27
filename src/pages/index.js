@@ -6,7 +6,6 @@ import SEO from "../components/seo"
 import Avatar from "../components/avatar"
 
 import styles from './index.module.css'
-console.log(styles)
 
 const IndexPage = () => (
   <Layout>

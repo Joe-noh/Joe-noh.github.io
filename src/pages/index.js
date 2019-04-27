@@ -18,8 +18,9 @@ const IndexPage = () => (
       <ul className={styles.links}>
         <li><a href="https://twitter.com/Joe_noh" target="_blank" rel="noopener noreferrer">Twitter</a></li>
         <li><a href="https://github.com/Joe-noh" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://www.slideshare.net/Joe_noh" target="_blank" rel="noopener noreferrer">Slide</a></li>
         <li><a href="https://joe-noh.hatenablog.com" target="_blank" rel="noopener noreferrer">Blog</a></li>
-        <li><Link to="/page-2/">History</Link></li>
+        <li><Link to="/history/">History</Link></li>
       </ul>
     </div>
   </Layout>

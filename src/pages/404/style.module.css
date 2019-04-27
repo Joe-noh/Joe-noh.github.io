@@ -1,0 +1,17 @@
+.article {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  text-align: center;
+}
+
+.heading {
+  visibility: hidden;
+}
+
+.bomb {
+  font-size: 6rem;
+  margin-top: 12px;
+}

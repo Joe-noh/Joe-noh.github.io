@@ -1,0 +1,9 @@
+.list {
+  font-size: .9rem;
+  padding-left: 2rem;
+  margin: 12px 0;
+}
+
+.list > li {
+  line-height: 1.7;
+}

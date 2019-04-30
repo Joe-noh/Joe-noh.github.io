@@ -22,6 +22,7 @@ const IndexPage = () => (
         <li><ExtLink href="https://www.slideshare.net/Joe_noh">Slide</ExtLink></li>
         <li><ExtLink href="https://joe-noh.hatenablog.com">Blog</ExtLink></li>
         <li><Link to="/history/">History</Link></li>
+        <li><Link to="/works/">Works</Link></li>
       </ul>
     </div>
   </Layout>

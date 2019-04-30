@@ -85,7 +85,7 @@ const Works = () => (
         </BulletList>
         <Paragraph>技術スタックは以下のように好き放題やった。</Paragraph>
         <BulletList>
-          <li>バックエンドAPIにElixir/Phoenix</li>
+          <li>バックエンドAPI（GraphQL）にElixir/Phoenix</li>
           <li>フロントエンドにVue.js</li>
           <li>Slack OAuthのコールバックを受けるサーバにGolang/Echo</li>
           <li>管理画面にLaravel</li>
@@ -114,6 +114,14 @@ const Works = () => (
           <li>Elixir/Phoenix</li>
           <li>Nuxt.js</li>
           <li>Firebase Authentication</li>
+        </BulletList>
+      </Section>
+      <Section>
+        <SectionHeading><ExtLink href="https://joe-noh.github.io/">joe-noh.github.io</ExtLink></SectionHeading>
+        <SectionSubheading>2019/4 -</SectionSubheading>
+        <Paragraph>このページ。平成も終わるので半生を振り返った。Gatsby on GitHub Pages。</Paragraph>
+        <BulletList>
+          <li><ExtLink href="https://github.com/Joe-noh/Joe-noh.github.io">リポジトリ</ExtLink></li>
         </BulletList>
       </Section>
     </Article>

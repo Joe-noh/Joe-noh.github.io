@@ -8,14 +8,16 @@
 .avatar {
   max-width: 200px;
   width: 40%;
-  margin-top: 15vh;
+  margin-top: 12vh;
 }
 
 .name {
+  font-size: 1.5rem;
   margin-top: 3vh;
 }
 
 .links {
+  font-size: 1rem;
   margin-top: 3vh;
   list-style: none;
   text-align: center;

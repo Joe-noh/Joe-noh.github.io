@@ -55,7 +55,7 @@ const Works = () => (
       <Section>
         <SectionHeading><ExtLink href="https://suzuri.jp/">SUZURI</ExtLink></SectionHeading>
         <SectionSubheading>2018/7 -</SectionSubheading>
-        <Paragraph>SUZURIのiOSアプリ以外の開発全般を担当。アイテム追加や機能改善、工場追加等を実施。Rails製。</Paragraph>
+        <Paragraph>SUZURIのiOSアプリ以外の開発全般を担当。アイテム追加や機能改善、単発のイベントLPフロントエンド実装、工場追加等を実施。Rails製。</Paragraph>
       </Section>
       <Section>
         <SectionHeading><ExtLink href="https://suzuri.jp/">Canvath</ExtLink></SectionHeading>

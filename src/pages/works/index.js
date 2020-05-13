@@ -64,7 +64,7 @@ const Works = () => (
       </Section>
       <Section>
         <SectionHeading><ExtLink href="https://people.suzuri.jp/">SUZURI People</ExtLink></SectionHeading>
-        <SectionSubheading>2018/8 -</SectionSubheading>
+        <SectionSubheading>2018/8 - 2019/7</SectionSubheading>
         <Paragraph>クリエイター支援サービス SUZURI Peopleの開発をフロントエンド中心に担当。主な技術スタックは</Paragraph>
         <BulletList>
           <li>Nuxt.js</li>
@@ -104,7 +104,7 @@ const Works = () => (
       <Section>
         <SectionHeading><ExtLink href="https://lild.app/">LILD</ExtLink></SectionHeading>
         <SectionSubheading>2019/2 -</SectionSubheading>
-        <Paragraph>同僚のデザイナーがiOSアプリを作り始めたことに刺激を受け、flutterで夢を記録するモバイルアプリの開発を始めたが、気づいたらWebをやっていた。</Paragraph>
+        <Paragraph>同僚のデザイナーがiOSアプリを作り始めたことに刺激を受け、Flutterで夢を記録するモバイルアプリの開発を始めたが、気づいたらWebをやっていた。</Paragraph>
         <BulletList>
           <li><ExtLink href="https://github.com/Joe-noh/LILD-web">リポジトリ（フロントエンド）</ExtLink></li>
           <li><ExtLink href="https://github.com/Joe-noh/LILD-api">リポジトリ（バックエンド）</ExtLink></li>
@@ -122,6 +122,14 @@ const Works = () => (
         <Paragraph>このページ。平成も終わるので半生を振り返った。Gatsby on GitHub Pages。</Paragraph>
         <BulletList>
           <li><ExtLink href="https://github.com/Joe-noh/Joe-noh.github.io">リポジトリ</ExtLink></li>
+        </BulletList>
+      </Section>
+      <Section>
+        <SectionHeading><ExtLink href="https://bolg.in/">BOLG</ExtLink></SectionHeading>
+        <SectionSubheading>2020/1 -</SectionSubheading>
+        <Paragraph>日記を書くためにつくったブログサービス。現在はクローズドβということにしてユーザは自分ひとり。採用技術や工夫ポイントは以下のブログ記事を参照のこと。</Paragraph>
+        <BulletList>
+          <li><ExtLink href="https://joe-noh.hatenablog.com/entry/2020/05/03/194307">ブログ記事</ExtLink></li>
         </BulletList>
       </Section>
     </Article>

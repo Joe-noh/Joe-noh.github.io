@@ -1,9 +1,9 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Helmet } from 'react-helmet'
-import { useStaticQuery, graphql } from 'gatsby'
+import React from "react"
+import PropTypes from "prop-types"
+import { Helmet } from "react-helmet"
+import { useStaticQuery, graphql } from "gatsby"
 
-import favicon from '../images/favicon.png'
+import favicon from "../images/favicon.png"
 
 function SEO({ title, description, meta }) {
   const { site } = useStaticQuery(
@@ -23,25 +23,30 @@ function SEO({ title, description, meta }) {
   const titleTemplate = `%s | ${site.siteMetadata.title}`
   const metaDescription = description || site.siteMetadata.description
   const metaInfo = [
-    { name: 'description', content: metaDescription },
-    { property: 'og:title', content: title },
-    { property: 'og:description', content: metaDescription },
-    { property: 'og:type', content: 'website' },
-    { name: 'twitter:card', content: 'summary' },
-    { name: 'twitter:creator', content: site.siteMetadata.author },
-    { name: 'twitter:title', content: title },
-    { name: 'twitter:description', content: metaDescription },
+    { name: "description", content: metaDescription },
+    { property: "og:title", content: title },
+    { property: "og:description", content: metaDescription },
+    { property: "og:type", content: "website" },
+    { name: "twitter:card", content: "summary" },
+    { name: "twitter:creator", content: site.siteMetadata.author },
+    { name: "twitter:title", content: title },
+    { name: "twitter:description", content: metaDescription },
   ].concat(meta)
 
   return (
-    <Helmet htmlAttributes={{ lang: 'ja' }} title={title} titleTemplate={titleTemplate} meta={metaInfo}>
+    <Helmet
+      htmlAttributes={{ lang: "ja" }}
+      title={title}
+      titleTemplate={titleTemplate}
+      meta={metaInfo}
+    >
       <link rel="icon" type="image/png" href={favicon} />
     </Helmet>
   )
 }
 
 SEO.defaultProps = {
-  description: '',
+  description: "",
   meta: [],
 }
 

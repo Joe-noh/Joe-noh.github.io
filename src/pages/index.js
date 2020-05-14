@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 import Avatar from "../components/avatar"
 import ExtLink from "../components/ext-link"
 
-import styles from './index.module.css'
+import styles from "./index.module.css"
 
 const IndexPage = () => (
   <Layout>
@@ -17,14 +17,30 @@ const IndexPage = () => (
       </div>
       <h2 className={styles.name}>Joe-noh</h2>
       <ul className={styles.links}>
-        <li><ExtLink href="https://twitter.com/Joe_noh">Twitter</ExtLink></li>
-        <li><ExtLink href="https://github.com/Joe-noh">GitHub</ExtLink></li>
-        <li><ExtLink href="https://qiita.com/Joe-noh">Qiita</ExtLink></li>
-        <li><ExtLink href="https://hex.pm/users/joe-noh">Hex</ExtLink></li>
-        <li><ExtLink href="https://www.slideshare.net/Joe_noh">Slide</ExtLink></li>
-        <li><ExtLink href="https://joe-noh.hatenablog.com">Blog</ExtLink></li>
-        <li><Link to="/history/">History</Link></li>
-        <li><Link to="/works/">Works</Link></li>
+        <li>
+          <ExtLink href="https://twitter.com/Joe_noh">Twitter</ExtLink>
+        </li>
+        <li>
+          <ExtLink href="https://github.com/Joe-noh">GitHub</ExtLink>
+        </li>
+        <li>
+          <ExtLink href="https://qiita.com/Joe-noh">Qiita</ExtLink>
+        </li>
+        <li>
+          <ExtLink href="https://hex.pm/users/joe-noh">Hex</ExtLink>
+        </li>
+        <li>
+          <ExtLink href="https://www.slideshare.net/Joe_noh">Slide</ExtLink>
+        </li>
+        <li>
+          <ExtLink href="https://joe-noh.hatenablog.com">Blog</ExtLink>
+        </li>
+        <li>
+          <Link to="/history/">History</Link>
+        </li>
+        <li>
+          <Link to="/works/">Works</Link>
+        </li>
       </ul>
     </div>
   </Layout>

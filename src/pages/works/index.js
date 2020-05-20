@@ -102,9 +102,9 @@ const Works = () => (
         </BulletList>
       </Section>
       <Section>
-        <SectionHeading><ExtLink href="https://lild.app/">LILD</ExtLink></SectionHeading>
-        <SectionSubheading>2019/2 -</SectionSubheading>
-        <Paragraph>同僚のデザイナーがiOSアプリを作り始めたことに刺激を受け、Flutterで夢を記録するモバイルアプリの開発を始めたが、気づいたらWebをやっていた。</Paragraph>
+        <SectionHeading>LILD</SectionHeading>
+        <SectionSubheading>2019/2 - 2020/5</SectionSubheading>
+        <Paragraph>同僚のデザイナーがiOSアプリを作り始めたことに刺激を受け、Flutterで夢を記録するモバイルアプリの開発を始めたが、気づいたらWebをやっていた。メンテナンスしなくなったので公開停止。</Paragraph>
         <BulletList>
           <li><ExtLink href="https://github.com/Joe-noh/LILD-web">リポジトリ（フロントエンド）</ExtLink></li>
           <li><ExtLink href="https://github.com/Joe-noh/LILD-api">リポジトリ（バックエンド）</ExtLink></li>

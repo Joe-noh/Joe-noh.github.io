@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
 import Footer from '../footer'
-import styles from './style.module.css'
+import { container, main, footer } from './style.module.css'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -17,9 +17,9 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <div className={styles.container}>
-        <main className={styles.main}>{children}</main>
-        <div className={styles.footer}>
+      <div className={container}>
+        <main className={main}>{children}</main>
+        <div className={footer}>
           <Footer />
         </div>
       </div>

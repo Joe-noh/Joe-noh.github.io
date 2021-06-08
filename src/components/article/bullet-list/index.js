@@ -1,10 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import styles from './style.module.css'
+import { list } from './style.module.css'
 
 const BulletList = ({ children }) => (
-  <ul className={styles.list}>{children}</ul>
+  <ul className={list}>{children}</ul>
 )
 
 BulletList.propTypes = {

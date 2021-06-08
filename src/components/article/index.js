@@ -8,10 +8,10 @@ import SectionSubheading from './section-subheading'
 import Paragraph from './paragraph'
 import BulletList from './bullet-list'
 
-import styles from './style.module.css'
+import { article } from './style.module.css'
 
 const Article = ({ children }) => (
-  <article className={styles.article}>{children}</article>
+  <article className={article}>{children}</article>
 )
 
 Article.propTypes = {

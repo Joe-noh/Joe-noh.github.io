@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Avatar from "../components/avatar"
 import ExtLink from "../components/ext-link"
 
@@ -10,7 +10,7 @@ import { container, avatar, name, links } from "./index.module.css"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <Seo title="Home" />
     <div className={container}>
       <div className={avatar}>
         <Avatar />

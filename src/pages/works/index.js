@@ -1,13 +1,13 @@
 import React from "react"
 
 import Layout from "../../components/layout"
-import SEO from "../../components/seo"
+import Seo from "../../components/seo"
 import Article, { ArticleHeading, Section, SectionHeading, SectionSubheading, Paragraph, BulletList } from '../../components/article'
 import ExtLink from '../../components/ext-link'
 
 const Works = () => (
   <Layout>
-    <SEO title="Works" />
+    <Seo title="Works" />
     <Article>
       <ArticleHeading>Works</ArticleHeading>
       <Section>

@@ -1,10 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import styles from './style.module.css'
+import { paragraph } from './style.module.css'
 
 const Paragraph = ({ children }) => (
-  <p className={styles.paragraph}>{children}</p>
+  <p className={paragraph}>{children}</p>
 )
 
 Paragraph.propTypes = {

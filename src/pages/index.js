@@ -6,17 +6,17 @@ import SEO from "../components/seo"
 import Avatar from "../components/avatar"
 import ExtLink from "../components/ext-link"
 
-import styles from "./index.module.css"
+import { container, avatar, name, links } from "./index.module.css"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div className={styles.container}>
-      <div className={styles.avatar}>
+    <div className={container}>
+      <div className={avatar}>
         <Avatar />
       </div>
-      <h2 className={styles.name}>Joe-noh</h2>
-      <ul className={styles.links}>
+      <h2 className={name}>Joe-noh</h2>
+      <ul className={links}>
         <li>
           <ExtLink href="https://twitter.com/Joe_noh">Twitter</ExtLink>
         </li>

@@ -72,6 +72,16 @@ const Works = () => (
           <li>Ruby on Rails 5.x</li>
         </BulletList>
       </Section>
+      <Section>
+        <SectionHeading><ExtLink href="https://suzuri.jp/lp/squeegee">SUZURIのシルクスクリーン</ExtLink></SectionHeading>
+        <SectionSubheading>2020/3 -</SectionSubheading>
+        <Paragraph>SUZURI本体とは別のRailsアプリケーションとして開発。リリースまでの開発と、その後の運用、アイテムの追加などを実施</Paragraph>
+        <BulletList>
+          <li>Vue.js</li>
+          <li>Ruby on Rails</li>
+        </BulletList>
+        <Paragraph>フロントエンド、バックエンドを担当。</Paragraph>
+      </Section>
     </Article>
 
     <Article>

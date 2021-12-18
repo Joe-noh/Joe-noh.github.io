@@ -137,7 +137,13 @@ const Works = () => (
       <Section>
         <SectionHeading><ExtLink href="https://bolg.in/">BOLG</ExtLink></SectionHeading>
         <SectionSubheading>2020/1 -</SectionSubheading>
-        <Paragraph>日記を書くためにつくったブログサービス。現在はクローズドβということにしてユーザは自分ひとり。採用技術や工夫ポイントは以下のブログ記事を参照のこと。</Paragraph>
+        <Paragraph><ExtLink href="https://joe.on.bolg.in/">日記</ExtLink>を書くためにつくったブログサービス。</Paragraph>
+        <BulletList>
+          <li>バックエンドAPIにElixir/Phoenix</li>
+          <li>投稿画面にNuxt.js</li>
+          <li>記事表示画面にNext.js</li>
+        </BulletList>
+        <Paragraph>現在と技術スタックは一部異なるが、リリース時に書いた解説記事は以下。</Paragraph>
         <BulletList>
           <li><ExtLink href="https://joe-noh.hatenablog.com/entry/2020/05/03/194307">ブログ記事</ExtLink></li>
         </BulletList>

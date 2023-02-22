@@ -24,7 +24,11 @@ const History = () => (
       </Section>
       <Section>
         <SectionHeading><ExtLink href="https://pepabo.com/">GMOペパボ株式会社</ExtLink></SectionHeading>
-        <SectionSubheading>2015/4 -</SectionSubheading>
+        <SectionSubheading>2015/4 - 2022/05</SectionSubheading>
+      </Section>
+      <Section>
+        <SectionHeading><ExtLink href="https://flowr.jp/">FLOWER株式会社</ExtLink></SectionHeading>
+        <SectionSubheading>2022/6 -</SectionSubheading>
       </Section>
     </Article>
   </Layout>
